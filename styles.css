@@ -1,0 +1,5 @@
+/* Structural borders only -- HW2 Part 2 allows border/border-width for
+   base page structure and nothing else. */
+header, nav, main, footer, section, article, form, fieldset, dialog {
+  border: 1px solid #999999;
+}
