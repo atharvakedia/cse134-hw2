@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="HW2 sandbox page demonstrating template, audio, video, canvas, and MathML.">
-  <title>Experiments &#8212; Atharva</title>
+  <meta name="description" content="Sandbox page demonstrating template, audio, video, canvas, and MathML.">
+  <title>Experiments — Atharva</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   </head>
@@ -27,16 +27,16 @@
   <main>
 
     <h1>Experiments</h1>
-    <p>A sandbox page for the HW2-required elements that don&#8217;t belong
+    <p>A sandbox page for a few elements that don’t belong
       anywhere in the actual portfolio narrative: <code>&#60;template&#62;</code>,
       <code>&#60;audio&#62;</code>, <code>&#60;video&#62;</code>,
       <code>&#60;canvas&#62;</code>, and <code>&#60;source&#62;</code>.</p>
 
     <section>
       <h2>Template</h2>
-      <p>The <code>&#60;template&#62;</code> element below is inert &#8212; its
+      <p>The <code>&#60;template&#62;</code> element below is inert — its
         contents are parsed but never rendered unless something clones them
-        with JavaScript, which this page intentionally doesn&#8217;t do.</p>
+        with JavaScript, which this page intentionally doesn’t do.</p>
       <template id="card-template">
         <article class="tpl-card">
           <h3>Card title</h3>
@@ -50,7 +50,7 @@
       <audio controls>
         <source src="assets/sample-audio.mp3" type="audio/mpeg">
         <source src="assets/sample-audio.ogg" type="audio/ogg">
-        Your browser doesn&#8217;t support the audio element. Here&#8217;s a
+        Your browser doesn’t support the audio element. Here’s a
         <a href="assets/sample-audio.mp3">direct link to the file</a> instead.
       </audio>
     </section>
@@ -60,7 +60,7 @@
       <video controls width="320" poster="assets/video-poster.png">
         <source src="assets/sample-video.mp4" type="video/mp4">
         <source src="assets/sample-video.webm" type="video/webm">
-        Your browser doesn&#8217;t support the video element. Here&#8217;s a
+        Your browser doesn’t support the video element. Here’s a
         <a href="assets/sample-video.mp4">direct link to the file</a> instead.
       </video>
     </section>
@@ -82,29 +82,21 @@
     </section>
 
     <section>
-      <h2>Extra Credit &#8212; MathML</h2>
+      <h2>Extra Credit — MathML</h2>
       <p>Mass-energy equivalence, written with native <code>&#60;math&#62;</code> markup:</p>
       <math display="block">
         <mi>E</mi><mo>=</mo><mi>m</mi><msup><mi>c</mi><mn>2</mn></msup>
       </math>
-      <p>MathML has technically been part of the web platform since the late
-        1990s, and Firefox and Safari have supported it natively for most of
-        that time &#8212; but Chrome (and every other Chromium-based browser,
-        including Edge) effectively couldn&#8217;t render it for most of its
-        history. Chrome briefly shipped experimental MathML support in
-        version 24 (2013) and then pulled it again due to stability issues.
-        It wasn&#8217;t until <b>Chrome 109</b>, in January 2023, that native
-        MathML (via the newer MathML Core spec) landed for real. So for about
-        a decade, &#8220;use MathML&#8221; meant either accepting broken
-        rendering for most visitors or reaching for a JavaScript polyfill
-        like MathJax &#8212; which is exactly the kind of gap
+      <p>MathML has been around since the late 1990s, but Chrome didn’t get
+        native support until <b>Chrome 109</b> in January 2023 — Firefox and
+        Safari had it for years before that. It’s a good reminder to check
         <a href="https://caniuse.com/mathml" target="_blank" rel="noopener">caniuse.com</a>
-        is useful for catching before you rely on a feature.</p>
+        before leaning on a feature like this.</p>
     </section>
 
   </main>
   <footer>
-    <p>&#169; 2026 Atharva. Built for CSE 134, HW2.</p>
+    <p>© 2026 Atharva.</p>
     <nav aria-label="Footer">
       <ul>
         <li><a href="https://github.com/example" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" role="img" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="#333333" stroke-width="1.5"></circle><text x="12" y="16" font-family="Arial, Helvetica, sans-serif" font-size="9" text-anchor="middle" fill="#333333">gh</text></svg> GitHub</a></li>
