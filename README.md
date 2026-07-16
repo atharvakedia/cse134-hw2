@@ -1,14 +1,7 @@
 # HW2 Part 2
 
 Static, HTML-only build. No CSS beyond structural borders (`styles.css`), and
-no JavaScript beyond the three cases the rubric explicitly allows:
-
-1. `script.js` — defines the two custom elements (`<profile-badge>` and
-   `<hello-log>`), loaded as a module on every page.
-2. An inline `<script>` on `experiments.html` — a ~9-line `<canvas>` demo.
-3. A placeholder third-party analytics `<script src="https://analytics.example.invalid/track.js">`
-   in the footer of every page (non-functional on purpose — it's just there
-   to demonstrate the tag, per the rubric's note on `<script>`).
+no JavaScript.
 
 ## Pages
 
